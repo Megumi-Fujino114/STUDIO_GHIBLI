@@ -89,12 +89,17 @@ main{
   background-size: cover;
   display: flex;
   justify-content: center;
+  align-items: center;
 
-img{
-  border-radius: 30px;
-  width: 300px;
-  height: 200px;
-}
+// img{
+//   border-radius: 30px;
+//   width: 300px;
+//   height: 200px;
+// }
+// }
+
+main{
+  font-family: 'Courier New', Courier, monospace;
 }
 
 // footer
@@ -105,4 +110,5 @@ footer {
     color: #0095d9;
     display: flex;
 	justify-content: space-between;
+}
 }
