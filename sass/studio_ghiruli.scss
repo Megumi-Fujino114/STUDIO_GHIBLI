@@ -1,3 +1,71 @@
-header{
-    color:red;
+
+/* ハンバーガーメニュー */
+$top:9px;
+$deg:45px;
+
+.hamburger {
+    display: none;
+    width: 28px;
+    align-self: center;
+    margin-right: 20px;
+
+    span{
+      position: relative;
+      display: block;
+   
+     &:after,
+     &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: -$top;
+     }
+
+     &:after{
+      top: $top;
+     }
+ 
+     &,
+     &:after,
+     &:before {
+      width: 100%;
+      height: 5px;
+      background-color: #fff;
+      transition: all 0.5s;    /*←アニメーション*/
+      backface-visibility: hidden;
+      border-radius: 2px;
+     }
 }
+
+    .on span {
+         background-color: transparent;
+           
+         &:before {
+
+          transform: rotate($deg) translate(5px, 5px);
+          }
+         &:after {
+          transform: rotate(-$deg) translate(7px, -8px);
+          }
+       }   
+}
+  
+  /**/
+    
+  .target {
+    position: absolute;
+    margin-top: 75px;
+    transform: translateX(200px);
+    transition: all 2s ease;
+    display: block;
+    width: 50%;
+    height: 100vh;
+    background-color: rgba(8, 8, 8, .8);
+
+    .hide {
+      transform: translateX(400px);
+      display: block;
+    
+     }
+   }
+  
