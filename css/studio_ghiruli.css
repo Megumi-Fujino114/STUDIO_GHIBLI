@@ -1,5 +1,12 @@
 header {
   width: 100%;
-  height: 80px;
+  height: 20px;
   background-color: #a0d8ef;
+}
+
+main {
+  background-image: url(../img/background.jpg);
+  width: 100%;
+  height: 700px;
+  background-size: cover;
 }
