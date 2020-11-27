@@ -5,8 +5,8 @@ header{
     color: #0095d9;
     display: flex;
     position: relative;
-    justify-content: space-between;
-	z-index: 1;
+    justifys-content: space-between;
+	   z-index: 1;
 }
 
 // hamburger menu
@@ -90,6 +90,16 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Courier Ne';
+  font-size:50px;
+}
+
+.rogo{
+  height: 200px;
+  width: 300px;
+  margin-left:300px;
+  margin-bottom: 300px;
+}
 
 // img{
 //   border-radius: 30px;
@@ -97,10 +107,6 @@ main{
 //   height: 200px;
 // }
 // }
-
-main{
-  font-family: 'Courier New', Courier, monospace;
-}
 
 // footer
 footer {
@@ -110,5 +116,4 @@ footer {
     color: #0095d9;
     display: flex;
 	justify-content: space-between;
-}
 }
