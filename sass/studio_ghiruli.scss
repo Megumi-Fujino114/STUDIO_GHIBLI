@@ -24,7 +24,7 @@ header{
     align-self: center;
     margin-right: 20px;
     margin-top: 7px;
-    margin-left: 310px;
+    margin-left: 400px;
     z-index: 100;
 
     span {
@@ -144,10 +144,11 @@ main{
 .slides {
     align-items: center;
     display: flex;
+    margin-left: 180px;
 
     img {
-        width: 900px;
-        height: 400px;
+        width: 1100px;
+        height: 500px;
     }
 }
 
