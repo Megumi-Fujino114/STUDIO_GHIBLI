@@ -10,13 +10,21 @@ header {
   z-index: 1;
 }
 
+.headericon {
+  width: 170px;
+  height: 55px;
+  align-items: flex-start;
+  margin-top: 7px;
+  margin-left: 20px;
+}
+
 .hamburger {
   width: 40px;
   height: 30px;
   align-self: center;
   margin-right: 20px;
   margin-top: 7px;
-  margin-left: 500px;
+  margin-left: 310px;
   z-index: 100;
 }
 
@@ -82,8 +90,6 @@ main {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  font-family: 'Courier Ne';
-  font-size: 50px;
 }
 
 main .rogo img {
@@ -114,6 +120,24 @@ main .rogo img {
 }
 
 /**/
+.nav_text {
+  display: absolute;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.slides {
+  align-items: center;
+  display: flex;
+}
+
+.slides img {
+  width: 900px;
+  height: 400px;
+}
+
 article {
   text-align: center;
   letter-spacing: 5px;

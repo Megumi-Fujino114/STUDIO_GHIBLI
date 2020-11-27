@@ -6,7 +6,15 @@ header{
     display: flex;
     position: relative;
     justify-content: space-between;
-	   z-index: 1;
+	z-index: 1;
+}
+
+.headericon {
+    width: 170px;
+    height: 55px;
+    align-items: flex-start;
+    margin-top: 7px;
+    margin-left: 20px;
 }
 
 // hamburger menu
@@ -16,7 +24,7 @@ header{
     align-self: center;
     margin-right: 20px;
     margin-top: 7px;
-    margin-left: 500px;
+    margin-left: 310px;
     z-index: 100;
 
     span {
@@ -122,6 +130,25 @@ main{
 }
 /**/
 
+// --------nav---------
+
+.nav_text {
+    display: absolute;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.slides {
+    align-items: center;
+    display: flex;
+
+    img {
+        width: 900px;
+        height: 400px;
+    }
+}
 
 // article
 article{
