@@ -74,11 +74,11 @@ header {
   height: 100vh;
   width: 200px;
   background-color: rgba(8, 8, 8, 0.5);
-  right: -200px;
+  right: 0;
 }
 
 .drower.on {
-  right: 0;
+  right: -200px;
   transition-duration: 600ms;
 }
 
@@ -126,6 +126,7 @@ main .rogo img {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
+  font-family: HiraMinPro-W6;
 }
 
 .slides {
