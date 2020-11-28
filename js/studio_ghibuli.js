@@ -3,7 +3,14 @@ $(function(){
 		$(this).toggleClass('on');
     $('.drower').toggleClass('on');
 	});
-	// $('.hamburger').on('click', function(){
-	// 	$('.drower').toggleClass('on');
-	// });
-});
+
+		$(".overlay").show();
+		$("#modal-close").on("click",function(){
+		$(".overlay").hide();
+        });
+
+	
+  });
+
+
+
