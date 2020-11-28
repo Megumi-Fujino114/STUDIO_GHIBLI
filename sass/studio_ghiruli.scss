@@ -6,7 +6,15 @@ header{
     display: flex;
     position: relative;
     justify-content: space-between;
-	   z-index: 1;
+	z-index: 1;
+}
+
+.headericon {
+    width: 170px;
+    height: 55px;
+    align-items: flex-start;
+    margin-top: 7px;
+    margin-left: 20px;
 }
 
 // hamburger menu
@@ -16,7 +24,7 @@ header{
     align-self: center;
     margin-right: 20px;
     margin-top: 7px;
-    margin-left: 200px;
+    margin-left: 400px;
     z-index: 100;
 
     span {
@@ -74,11 +82,11 @@ header{
     height: 100vh;
     width: 200px;
     background-color: rgba(8, 8, 8, .5);
-    right: -200px;
+    right: 0;
   }
   
   .drower.on {
-    right: 0;
+    right: -200px;
     transition-duration: 600ms;
   }
 
@@ -122,6 +130,27 @@ main{
 }
 /**/
 
+// --------nav---------
+
+.nav_text {
+    display: absolute;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: HiraMinPro-W6;
+}
+
+.slides {
+    align-items: center;
+    display: flex;
+    margin-left: 180px;
+
+    img {
+        width: 1100px;
+        height: 500px;
+    }
+}
 
 // article
 article{
