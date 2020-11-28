@@ -4,12 +4,12 @@ $(function(){
     $('.drower').toggleClass('on');
 	});
 
-		$(".overlay").show();
-		$("#modal-close").on("click",function(){
-		$(".overlay").hide();
-        });
+	$(".overlay").show();
+	$("#modal-close").on("click",function(){
+	$(".overlay").hide();
+	});
+		
 
-	
   });
 
 

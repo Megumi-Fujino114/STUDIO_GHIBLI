@@ -72,13 +72,14 @@ header {
   position: absolute;
   top: 70px;
   height: 100vh;
-  width: 200px;
+  width: 400px;
   background-color: rgba(8, 8, 8, 0.5);
   right: 0;
+  font-size:30px;
 }
 
 .drower.on {
-  right: -200px;
+  right: -400px;
   transition-duration: 600ms;
 }
 
