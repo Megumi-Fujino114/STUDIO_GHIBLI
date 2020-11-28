@@ -85,7 +85,6 @@ header {
 .drower.on {
   right: -400px;
   transition-duration: 600ms;
-  right: -200px;
   transition-duration: 1500ms;
 }
 
