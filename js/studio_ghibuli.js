@@ -12,12 +12,6 @@ $(function(){
     }
 	});
 
-	$(".overlay").show();
-	$("#modal-close").on("click",function(){
-	$(".overlay").hide();
-	});
-
-  });
 
 
 

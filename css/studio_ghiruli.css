@@ -11,10 +11,10 @@ header {
 }
 
 .headericon {
-  width: 170px;
-  height: 55px;
+  width: 40px;
+  height: 40px;
   align-items: flex-start;
-  margin-top: 7px;
+  margin-top: 15px;
   margin-left: 20px;
 }
 
@@ -28,7 +28,7 @@ header {
   align-self: center;
   margin-right: 20px;
   margin-top: 7px;
-  margin-left: 400px;
+  margin-left: 430px;
   z-index: 100;
 }
 
@@ -283,25 +283,25 @@ footer {
     width: 375px;
   }
 
-  .header_responsive {
+  .headericon {
     display: block;
-    width: 80px;
-    height: 60px;
-    margin-top: 5px;
-    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    margin-top: 13px;
+    margin-left: 10px;
   }
 
   .hamburger {
-    margin-left: 87px;
-  }
-  
-  .headericon {
-    display: none;
+    margin-left: 90px;
   }
 
+  .main {
+    background-size: 500px 700px;
+  }
+  
   .responsive_icon {
     display: block;
-    margin-top: 500px;
+    margin-top: 800px;
     margin-right: 20px;
   }
 
@@ -315,6 +315,7 @@ footer {
     display: none;
   }
   
+
   .slides {
     display: none;
   }
