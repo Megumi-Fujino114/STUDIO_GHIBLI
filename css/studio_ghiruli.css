@@ -295,14 +295,24 @@ footer {
     margin-left: 90px;
   }
 
-  .main {
-    background-size: 500px 700px;
+  main .rogo img {
+    display: none;
+  }
+
+  .animation {
+    display: none;
+  }
+
+  main {
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    height: 400px;
   }
   
   .responsive_icon {
     display: block;
-    margin-top: 800px;
-    margin-right: 20px;
+    position: absolute;
+    margin-top: 280px;
   }
 
   .nav_text {
